@@ -1,0 +1,14 @@
+name = 'Ruturaj'
+age = 25
+height = 173.5#cm
+weight = 63#kg
+eyes = 'black'
+teeth = 'white'
+hair = 'black'
+
+print 'Let\'s talk about %s' %name
+print 'He\'s %dcm tall.' %height
+print "He's %dkg heavy" %weight
+print "He's got %s eyes and %s hair." %(eyes, hair)
+print 'If I add %d, %d, and %d I get %d.' %(age, height, weight, age+height+weight)
+'''
