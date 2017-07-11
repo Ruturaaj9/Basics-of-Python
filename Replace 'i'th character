@@ -1,0 +1,5 @@
+a = raw_input()
+i = int(raw_input())
+c = raw_input()
+s = a[:i] + c + a[i+1:]
+print s
