@@ -1,0 +1,11 @@
+#wrap text in new line with max_width no of characters per line
+
+import textwrap
+string, max_width = raw_input(), int(raw_input())
+print textwrap.fill(string,max_width)
+
+#wrap text in elements of a string with max_width no of characters
+
+#import textwrap
+#string, max_width = raw_input(), int(raw_input())
+#print textwrap.wrap(string,max_width)
